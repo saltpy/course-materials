@@ -33,3 +33,8 @@
 4. TDD, unittest and flake8;
 5. Error Handling;
 6. Python control flow idioms. 
+
+## Assessment
+1. MCT 20%;
+2. In class exercises 30%;
+3. Assignment 50%.
