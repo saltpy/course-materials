@@ -1,4 +1,4 @@
-Day One
+##Day One - Writing Code
 * Type -
 * Operator -
 * Operand -
@@ -10,7 +10,7 @@ Day One
 * Terminal -
 * REPL -
 
-Day Two
+##Day Two - Writing Programs
 * Abstraction -
 * Composition -
 * Inheritance -
@@ -21,7 +21,7 @@ Day Two
 * Mutation -
 * Signature -
 
-Day Three
+##Day Three - Writing Good Programs
 * Refactor -
 * Unit Test -
 * Thought Good -
@@ -30,5 +30,5 @@ Day Three
 * Module -
 * Package -
 
-Day Four
+##Day Four - Project
 * N/A
