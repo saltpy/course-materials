@@ -6,7 +6,8 @@
     * try/except;
     * if/elif/else.
 2. Abstraction;
-    * Language.
+    * Language;
+    * Function.
 3. Composition;
     * Lego.
 4. Inheritance.
