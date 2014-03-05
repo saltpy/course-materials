@@ -14,8 +14,6 @@ Day Two
 * Abstraction -
 * Composition -
 * Inheritance -
-* Encapsulation -
-* Protocol -
 * Function -
 * Namespace -
 * Object -
