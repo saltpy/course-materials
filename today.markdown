@@ -12,4 +12,5 @@
     * Lego.
 4. Inheritance.
     * Class;
-    * object.
+    * object;
+    * self.
