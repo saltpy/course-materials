@@ -15,7 +15,6 @@
 * Composition -
 * Inheritance -
 * Function -
-* Namespace -
 * Object -
 * Class -
 * Mutation -
