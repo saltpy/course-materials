@@ -8,7 +8,7 @@ lint() {
 }
 
 dev_install() {
-    pip install -r dev-requirements.pip || exit $?
+    #pip install -r dev-requirements.pip || exit $?
     python setup.py develop || exit $?
     echo "Development install passed!"
 }
@@ -25,7 +25,7 @@ venv() {
 }
 
 #venv
-#dev_install
+dev_install
 #lint
 unittest
 echo "Build passed!"
