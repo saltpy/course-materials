@@ -24,8 +24,8 @@ venv() {
     echo "Virtualenv resolved!"
 }
 
-venv
-dev_install
-lint
+#venv
+#dev_install
+#lint
 unittest
 echo "Build passed!"
