@@ -21,13 +21,12 @@
 * Signature - name of function plus its arguments
 
 ##Day Three - Writing Good Programs
-* Refactor -
-* Unit Test -
-* Thought Good -
-* Isolation -
-* Library -
-* Module -
-* Package -
+* Refactor - make things better without breaking any tests
+* Unit Test - test a single piece of functionality
+* Thought Good - accepting a solution is right
+* Isolation - something on its own
+* Library - other peoples functions and classes
+* Module - one or more files of python code
 
 ##Day Four - Project
 * N/A
