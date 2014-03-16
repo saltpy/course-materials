@@ -2,11 +2,12 @@
 
 ##Objectives
 
-1. Java;
-2. JUnit;
-3. Eclipse;
-4. Refactoring;
-5. Maven.
+1. Ability to read Java code;
+2. Ability to write Java code to solve novel problems;
+2. Ability to unit test Java code with JUnit;
+3. Ability to use Eclipse to develop Java code;
+4. Ability to write Java code that is well factored and testable;
+5. Ability to use Maven to automate the build and test of Java code.
 
 ##Outcomes
 
