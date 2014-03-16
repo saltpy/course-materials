@@ -2,4 +2,7 @@
 *.swp
 PythonCourseEnv
 *.pyc
-
+target
+.classpath
+.project
+.settings
