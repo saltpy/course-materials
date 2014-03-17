@@ -6,7 +6,10 @@ public class Greetings {
 	private final String normalGreeting;
 	private final String vipGreeting;
 
-	public Greetings(String name, int timesLoggedIn) {
+	public Greetings(String name, int timesLoggedIn) throws Exception {
+		if (timesLoggedIn < 0) {
+			throw new Exception("A user cannot have logged in " + timesLoggedIn + " times!");
+		}
 		this.timesLoggedIn = timesLoggedIn;
 		this.vipGreeting = "Greetings " + name + ", how the devil are you?";
 		this.normalGreeting = "Hey, " + name;
