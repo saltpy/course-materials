@@ -49,19 +49,10 @@ public class TestGreetings {
 		assertEquals(expected, systemUnderTest.greet());
 	}
 
-	@Test
-	public void testUserWithTimesLoggedInLessThanZeroThrowsError() {
-		boolean passed = false;
-		try {
-			@SuppressWarnings("unused")
-			Greetings systemUnderTest = new Greetings(name, -1);
-		} catch (Exception e) {
-			passed = true;
-		}
-		if (!passed) {
-			throw new AssertionError(
-					"Expected Exception to be thrown when timesLoggedIn is less than 0.");
-		}
+	@Test(expected=Exception.class)
+	public void testUserWithTimesLoggedInLessThanZeroThrowsError() throws Exception {
+		@SuppressWarnings("unused")
+		Greetings systemUnderTest = new Greetings(name, -1);
 	}
 
 }
