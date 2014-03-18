@@ -10,6 +10,14 @@ public class TestBowling {
 		rollMany(game, 0, 20);
 		assertEquals(0, game.score());
 	}
+	
+	@Test
+	public void testSpare() {
+		Bowling game = new Bowling();
+		rollMany(game, 5, 2);
+		game.roll(1);
+		assertEquals(12, game.score());
+	}
 
 	private void rollMany(Bowling game, int pins, int times) {
 		for (int i = 0; i < times; i++) {
