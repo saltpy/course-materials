@@ -10,8 +10,7 @@ public class Tennis {
 	}
 
 	public void pointToServe() {
-		// TODO Auto-generated method stub
-		
+		playerOne++;
 	}
 
 }
