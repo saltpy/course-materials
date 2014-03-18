@@ -27,6 +27,13 @@ public class TestBowling {
 		assertEquals(14, game.score());
 	}
 	
+	@Test
+	public void testPerfectGame() {
+		Bowling game = new Bowling();
+		rollMany(game, 10, 11);
+		assertEquals(300, game.score());
+	}
+	
 	private void rollMany(Bowling game, int pins, int times) {
 		for (int i = 0; i < times; i++) {
 			game.roll(pins);

@@ -15,7 +15,17 @@ public class Bowling {
 				scoreNonStrikeFrame();
 			}
 		}
+		scorePerfectGame();
 		return total;
+	}
+
+	private void scorePerfectGame() {
+		for (int i = 0; i < 11; i++) {
+			if (scores[i] != 10) {
+				return;
+			}
+		}
+		total += 10;
 	}
 
 	private void scoreStrikeFrame() {
