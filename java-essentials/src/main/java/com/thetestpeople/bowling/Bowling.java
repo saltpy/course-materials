@@ -4,7 +4,7 @@ public class Bowling {
 
 	public int score() {
 		// TODO Auto-generated method stub
-		return -1;
+		return 0;
 	}
 
 	public void roll(int pins) {
