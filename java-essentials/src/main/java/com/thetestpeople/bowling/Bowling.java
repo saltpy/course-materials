@@ -1,15 +1,20 @@
 package com.thetestpeople.bowling;
 
 public class Bowling {
-
+	private int[] scores = new int[21];
+	private int nextBall = 0;
+	
 	public int score() {
-		// TODO Auto-generated method stub
-		return 0;
+		int total = 0;
+		for (int i = 0; i < 21; i++) {
+			total += scores[i];
+		}
+		return total;
 	}
 
 	public void roll(int pins) {
-		// TODO Auto-generated method stub
-		
+		scores[nextBall] = pins;
+		nextBall++;
 	}
 
 }
