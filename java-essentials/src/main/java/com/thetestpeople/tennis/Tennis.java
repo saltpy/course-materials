@@ -9,4 +9,9 @@ public class Tennis {
 		return new Object[] { possibleScores[playerOne], possibleScores[playerTwo] };
 	}
 
+	public void pointToServe() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

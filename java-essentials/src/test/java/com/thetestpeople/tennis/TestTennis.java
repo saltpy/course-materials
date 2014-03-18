@@ -10,4 +10,11 @@ public class TestTennis {
 		Assert.assertArrayEquals(new Object[] { 0, 0 }, game.score());
 	}
 	
+	@Test
+	public void testFifteenLove() {
+		Tennis game = new Tennis();
+		game.pointToServe();
+		Assert.assertArrayEquals(new Object[] { 15, 0 }, game.score());
+	}
+	
 }
