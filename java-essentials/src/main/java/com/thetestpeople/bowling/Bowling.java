@@ -6,8 +6,16 @@ public class Bowling {
 	
 	public int score() {
 		int total = 0;
-		for (int i = 0; i < 21; i++) {
-			total += scores[i];
+		int next = 0;
+		for (int frame = 0; frame < 10; frame++) {
+			if (scores[next] + scores[next + 1] == 10) {
+				total += 10 + scores[next + 2];
+				next += 2;
+			} else {
+				total += scores[next];
+				total += scores[next + 1];
+				next += 2;
+			}
 		}
 		return total;
 	}
