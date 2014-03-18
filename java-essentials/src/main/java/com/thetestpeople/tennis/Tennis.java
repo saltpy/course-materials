@@ -17,4 +17,8 @@ public class Tennis {
 		playerTwo++;
 	}
 
+	public boolean isWon() {
+		return playerOne == 5 || playerTwo == 5;
+	}
+
 }
