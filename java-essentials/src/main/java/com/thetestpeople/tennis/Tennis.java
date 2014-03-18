@@ -14,6 +14,8 @@ public class Tennis {
 	public void pointToServe() {
 		if (isAdvantageAgainstServer()) {
 			playerTwo = 3;
+		} else if (playerOne == 3 && playerTwo < 3) {
+			playerOne = 5;
 		} else {
 			playerOne++;
 		}
@@ -26,6 +28,8 @@ public class Tennis {
 	public void pointAgainstServe() {
 		if (isAdvantageServer()) {
 			playerOne = 3;
+		} else if (playerTwo == 3 && playerOne < 3) {
+			playerTwo = 5;
 		} else {
 			playerTwo++;
 		}

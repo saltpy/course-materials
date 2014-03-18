@@ -25,13 +25,22 @@ public class TestTennis {
 	}
 
 	@Test
-	public void testFivePointsToServeIsAWonGame() {
+	public void testFourPointsToServeIsAWonGame() {
 		Tennis game = new Tennis();
 		game.pointToServe();
 		game.pointToServe();
 		game.pointToServe();
 		game.pointToServe();
-		game.pointToServe();
+		Assert.assertTrue(game.isWon());
+	}
+	
+	@Test
+	public void testFourPointsAgainstServeIsAWonGame() {
+		Tennis game = new Tennis();
+		game.pointAgainstServe();
+		game.pointAgainstServe();
+		game.pointAgainstServe();
+		game.pointAgainstServe();
 		Assert.assertTrue(game.isWon());
 	}
 	
