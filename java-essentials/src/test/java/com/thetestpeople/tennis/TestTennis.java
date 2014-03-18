@@ -7,7 +7,7 @@ public class TestTennis {
 	@Test
 	public void testLoveAll() {
 		Tennis game = new Tennis();
-		Assert.assertArrayEquals(new int[] { 0, 0 }, game.score());
+		Assert.assertArrayEquals(new Object[] { 0, 0 }, game.score());
 	}
-
+	
 }
