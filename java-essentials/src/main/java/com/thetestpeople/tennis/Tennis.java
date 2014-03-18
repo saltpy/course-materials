@@ -13,4 +13,8 @@ public class Tennis {
 		playerOne++;
 	}
 
+	public void pointAgainstServe() {
+		playerTwo++;
+	}
+
 }
