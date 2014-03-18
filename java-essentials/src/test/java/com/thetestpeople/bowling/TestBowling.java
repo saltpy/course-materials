@@ -19,6 +19,14 @@ public class TestBowling {
 		assertEquals(12, game.score());
 	}
 
+	@Test
+	public void testStrike() {
+		Bowling game = new Bowling();
+		game.roll(10);
+		rollMany(game, 1, 2);
+		assertEquals(14, game.score());
+	}
+	
 	private void rollMany(Bowling game, int pins, int times) {
 		for (int i = 0; i < times; i++) {
 			game.roll(pins);
