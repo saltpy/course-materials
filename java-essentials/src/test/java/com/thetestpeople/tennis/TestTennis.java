@@ -34,4 +34,32 @@ public class TestTennis {
 		game.pointToServe();
 		Assert.assertTrue(game.isWon());
 	}
+	
+	@Test
+	public void testReturnToDeuceAfterAdvantageServer() {
+		Tennis game = new Tennis();
+		game.pointToServe();
+		game.pointAgainstServe();
+		game.pointToServe();
+		game.pointAgainstServe();
+		game.pointToServe();
+		game.pointAgainstServe();
+		game.pointToServe();
+		game.pointAgainstServe();
+		Assert.assertArrayEquals(new Object[] { 40,  40 }, game.score());
+	}
+	
+	@Test
+	public void testReturnToDeuceAfterAdvantageAgainstServer() {
+		Tennis game = new Tennis();
+		game.pointAgainstServe();
+		game.pointToServe();
+		game.pointAgainstServe();
+		game.pointToServe();
+		game.pointAgainstServe();
+		game.pointToServe();
+		game.pointAgainstServe();
+		game.pointToServe();
+		Assert.assertArrayEquals(new Object[] { 40,  40 }, game.score());
+	}
 }
