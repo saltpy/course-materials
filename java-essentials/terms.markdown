@@ -23,3 +23,11 @@
 * Dependencies - something the code relies on - cant work without it - added to the pom.xml and JUnit and WebDriver are examples;
 * Interface - way of making sure a number of classes have the same methods;
 * Annotation - way of adding behaviour to a method;
+* Local Test Environments - Web Server on local PC - BeforeClass AfterClass to start and stop it
+* Conventional Approach to Selectors - CSS or XPATH rarely both - accessing a parent of a node is much easier in xpath;
+* Asynchronous Tools Make Life Hard - (1) things happen at indeterminate times and (2) the number of inputs does not relate to the number of actions;
+* Investigate with the Console - cheaper to make mistakes in than webdriver and more information about failures;
+* Reliable Selectors - ease of use, ease of understanding, reliability and accuracy all important as is cost to produce the selector;
+* Learn and Use General Skills - self defining;
+* Known States - with Before, After, BeforeClass, AfterClass and other helper methods;
+* Knowledge is Cheap - skills are expensive.
